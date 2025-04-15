@@ -1,0 +1,59 @@
+
+{
+  "orders": [
+    {
+      "id": "ord001",
+      "userId": "2",
+      "items": [
+        {
+          "bookId": "f1",
+          "title": "The Silent Patient",
+          "quantity": 1,
+          "price": 299
+        },
+        {
+          "bookId": "t1",
+          "title": "The Lean Startup",
+          "quantity": 1,
+          "price": 499
+        }
+      ],
+      "totalAmount": 798,
+      "orderDate": "2025-04-10",
+      "status": "delivered",
+      "paymentId": "pay_test123",
+      "shippingAddress": {
+        "name": "Regular User",
+        "street": "123 Main St",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001",
+        "country": "India"
+      }
+    },
+    {
+      "id": "ord002",
+      "userId": "2",
+      "items": [
+        {
+          "bookId": "b1",
+          "title": "Becoming",
+          "quantity": 1,
+          "price": 599
+        }
+      ],
+      "totalAmount": 599,
+      "orderDate": "2025-04-12",
+      "status": "processing",
+      "paymentId": "pay_test456",
+      "shippingAddress": {
+        "name": "Regular User",
+        "street": "123 Main St",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001",
+        "country": "India"
+      }
+    }
+  ]
+}

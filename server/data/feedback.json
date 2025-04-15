@@ -1,0 +1,29 @@
+
+{
+  "feedback": [
+    {
+      "id": "fb001",
+      "name": "Raj Kumar",
+      "email": "raj@example.com",
+      "message": "Love the selection of books at BookByte! The interface is user-friendly and the dark mode is easy on the eyes.",
+      "timestamp": "2025-04-01T12:30:45Z",
+      "status": "read"
+    },
+    {
+      "id": "fb002",
+      "name": "Priya Singh",
+      "email": "priya@example.com",
+      "message": "I appreciate the detailed descriptions of each book. It helps me make informed decisions before purchasing.",
+      "timestamp": "2025-04-05T09:15:22Z",
+      "status": "unread"
+    },
+    {
+      "id": "fb003",
+      "name": "Aditya Patel",
+      "email": "aditya@example.com",
+      "message": "The checkout process is smooth. However, it would be nice to have more payment options in the future.",
+      "timestamp": "2025-04-07T16:45:10Z",
+      "status": "unread"
+    }
+  ]
+}

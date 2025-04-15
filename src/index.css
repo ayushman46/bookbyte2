@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 217 60% 10%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 60% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 60% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 18 61% 42%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --library-primary: 217 30% 30%;
+    --library-secondary: 43 36% 47%;
+    --library-accent: 18 41% 32%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-navy-600 hover:bg-navy-700 text-white rounded-md font-medium transition-all;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-cream-100 hover:bg-cream-200 text-navy-800 rounded-md font-medium transition-all;
+  }
+  
+  .btn-accent {
+    @apply px-6 py-3 bg-terracotta-500 hover:bg-terracotta-600 text-white rounded-md font-medium transition-all;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-navy-300;
+  }
+}
